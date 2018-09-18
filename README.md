@@ -1,6 +1,6 @@
 # measures_centraltendency
-Measures of central tendency
 
+Measures of central tendency yield information about particular points of a data set
 
 The beginning is always 101...
 
@@ -22,12 +22,26 @@ Mean is affected by the magnitude of the extreme values = ∑x/n
 
 Percentile - A measure of central tendency that divides a group of data into 100 parts. There are 99 percentiles.
 nth percentile is the value such that at least n% of the data are below that value and (100-n)% are above that value
-To find median
+To find percentile
 - Sort the numbers in ascending order
 - Pth percentile of a set of n numbers is at location i. i = P * n / 100
 - If i is a whole number, Pth percentile value = (Value at location i + Value at location i + 1) /2
 - If i is not a whole number, Pth percentile value = Value at location (integer part of i + 1)
 
 50th percentile is the median
+
+Quartile - A measure of central tendency that divides a group of data into 4 parts. The first quartile Q1 separates the lowest 1/4th of data from the upper 3/4th and is the 25th percentile
+
+Q2 = 50th percentile = median
+To find quartile
+- Sort the numbers in ascending order
+- Pth percentile of a set of n numbers is at location i. i = P * n / 100
+- If i is a whole number, Pth percentile value = (Value at location i + Value at location i + 1) /2
+- If i is not a whole number, Pth percentile value = Value at location (integer part of i + 1)
+
+Dataset and Programming Language
+
+I am using a Kaggle data set - https://www.kaggle.com/lava18/google-play-store-apps
+Python 2.7.15 ipython notebooks
 
 
